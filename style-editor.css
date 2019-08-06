@@ -10,6 +10,18 @@ p {
   text-rendering: optimizeLegibility;
 }
 
+ul, li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 0;
+  text-rendering: optimizeLegibility;  
+}
+
 .editor-post-title__block .editor-post-title__input {
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 }
