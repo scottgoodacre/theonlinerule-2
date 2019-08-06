@@ -20,7 +20,7 @@
 		<div class="site-info">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
-				&copy; <a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> <?php echo theonlinerule_copyright(); ?>
+				&copy; <a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> 2013 - <?php echo date('Y'); ?>
 			<?php endif; ?>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
