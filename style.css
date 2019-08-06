@@ -91,9 +91,3 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 
-/* Remove 'powered by' footer */
-
-.site-info { 
-    display: none; 
-}
-
